@@ -33,17 +33,17 @@
                         @csrf
 
                         <div class="form-group">
-                            <label for="username">{{ __('Username') }}</label>
-                            <input id="username" type="text" name="username" class="form-control"  placeholder="{{ __('Enter your username') }}">
+                            <label for="username">{{ __('Pseudo Admin') }}</label>
+                            <input id="username" type="text" name="username" class="form-control"  placeholder="{{ __('Votre Pseudonyme') }}">
                         </div>
 
                         <div class="form-group">
-                            <label for="password">{{ __('Password') }}</label>
-                            <input id="password" name="password" type="password" class="form-control" placeholder="{{ __('Enter your password') }}">
+                            <label for="password">{{ __('Mot de passe') }}</label>
+                            <input id="password" name="password" type="password" class="form-control" placeholder="{{ __('Veuillez écrire votre mot de passe') }}">
                         </div>
 
                         <button type="submit" class="btn btn-primary w-100">
-                            {{ __('Login') }}
+                            {{ __('Connexion') }}
                         </button>
                     </form>
                 </div>
